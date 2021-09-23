@@ -7,8 +7,10 @@ function ageInDays(){
     h1.setAttribute('id', 'ageInDays')
     h1.appendChild(text)
     element.appendChild(h1);
+    document.getElementById('age').value = '';
 }
 
 function RESet(){
+    document.getElementById('ageInDays').remove();
     document.getElementById('age').value = '';
 }
